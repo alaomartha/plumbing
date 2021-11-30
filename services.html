@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="services.css">
+  <script src="https://kit.fontawesome.com/6b5a2b6ba2.js"
+  crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <span class="navlogo">
+    <strong> <i class=" fas fa-pump-soap fa-2x"></i> A.M.A Plumbing </strong>
+    <i class="fas fa-bars fa-2x bar"  onclick="toggleNav()"></i>
+  </span>
+
+  <div class="content">
+<div class="navbar">
+ <a href="index.html"> <i class="fas fa-home"></i>
+   <p>Home</p></a>
+  <a href="about us.html"> <i class="fas fa-book"></i> <p>About Us</p></a>
+  <a href="services.html"> <i class="fas fa-phone"></i> <p>Our Services</p></a>
+  <a href="contact us.html"> <i class="fas fa-envelope"></i> <p>Contact us</p></a>
+</div>
+<script>
+   function toggleNav(){
+     document.querySelector(".navbar").classList .toggle("navbar--open")
+   }
+</script>
+<div class="services-text">
+<h1>A.M.A PLUMBING SERVICES</h1>
+<p>Whether you are in need of a heating and plumbing system, repair services or preventative maintenance, our skilled technicians can handle the job.</p>
+</div>
+
+<div class="services">
+  <div class="install">
+  <h3 class="topics">NEW INSTALLATION</h3>
+  <img src="kitchen tap.jpg" alt="" id="images">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa itaque, impedit minima quisquam quia debitis eligendi facilis recusandae voluptates, unde minus, quidem neque repudiandae ratione harum alias dolores adipisci vitae?
+  Ut iusto accusantium rerum dolorum odit. Modi, delectus. Similique nam sed ab magni! Autem, error ratione? Cupiditate est magnam, quis beatae dolore modi neque natus et, harum vel totam a!
+  Ipsa dolores dignissimos aspernatur quae veniam, repellendus expedita modi magnam laboriosam tenetur fuga aliquid sed quasi odio magni laborum commodi obcaecati natus, quaerat error vel voluptas atque ab nesciunt? Expedita!</p>
+</div>
+<div class="upgrade">
+  <h3 class="topics">UPGRADE AND REPLACEMENT</h3>
+  <img src="tap plumd.jpeg" alt="broken tap" class="images">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa itaque, impedit minima quisquam quia debitis eligendi facilis recusandae voluptates, unde minus, quidem neque repudiandae ratione harum alias dolores adipisci vitae?
+    Ut iusto accusantium rerum dolorum odit. Modi, delectus. Similique nam sed ab magni! Autem, error ratione? Cupiditate est magnam, quis beatae dolore modi neque natus et, harum vel totam a!
+    Ipsa dolores dignissimos aspernatur quae veniam, repellendus expedita modi magnam laboriosam tenetur fuga aliquid sed quasi odio magni laborum commodi obcaecati natus, quaerat error vel voluptas atque ab nesciunt? Expedita!</p>
+</div>
+<div class="shower">
+  <h3 class="topics">BATHROOM AND SHOWER INSTALLATION</h3>
+  <img src="shower.jpeg" alt="toilet" class="shower">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa itaque, impedit minima quisquam quia debitis eligendi facilis recusandae voluptates, unde minus, quidem neque repudiandae ratione harum alias dolores adipisci vitae?
+    Ut iusto accusantium rerum dolorum odit. Modi, delectus. Similique nam sed ab magni! Autem, error ratione? Cupiditate est magnam, quis beatae dolore modi neque natus et, harum vel totam a!
+    Ipsa dolores dignissimos aspernatur quae veniam, repellendus expedita modi magnam laboriosam tenetur fuga aliquid sed quasi odio magni laborum commodi obcaecati natus, quaerat error vel voluptas atque ab nesciunt? Expedita!</p>
+</div>
+<div class="repair">
+  <h3 class="topics">REPAIR SERVICE</h3>
+  <img src="broken tap.jpeg" alt="broken tap" class="images">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa itaque, impedit minima quisquam quia debitis eligendi facilis recusandae voluptates, unde minus, quidem neque repudiandae ratione harum alias dolores adipisci vitae?
+    Ut iusto accusantium rerum dolorum odit. Modi, delectus. Similique nam sed ab magni! Autem, error ratione? Cupiditate est magnam, quis beatae dolore modi neque natus et, harum vel totam a!
+    Ipsa dolores dignissimos aspernatur quae veniam, repellendus expedita modi magnam laboriosam tenetur fuga aliquid sed quasi odio magni laborum commodi obcaecati natus, quaerat error vel voluptas atque ab nesciunt? Expedita!</p>
+</div>
+</div>
+
+<h1>GET A SERVICE REQUEST</h1>
+<div class="form">
+<label for="fname">First Name <span>*</span></label>
+  <input type="text" required> <br>
+  <label for="lname">Last Name <span>*</span></label>
+  <input type="text" required><br>
+  <label for="email">Email Address <span>*</span></label>
+  <input type="email" name="email" id="" required><br>
+  <label for="Country">State</label><span>*</span>
+  <!--countries  -->
+  <select name="country" id="">
+  <option value="Australia">KADUNA</option>
+  <option value="Australia">WARRI</option>
+  <option value="Australia">ABUJA</option>
+  <option value="Australia">BENIN</option>
+  <option value="Australia">IBADAN</option>
+  <option value="Australia">ENUGU</option>
+  <option value="Australia">LAGOS</option>
+  <option value="Australia">OGUN</option>
+  <option value="Australia">PORT HARCOURT</option>
+  <option value="Australia">AKWA-IBON</option>
+</select>
+<label for="message" class="mess"> message <span>*</span></label>
+ <textarea name="" id="" cols="30" rows="10"></textarea>
+<input type="submit" value="Submit">
+</div>
+<br> <br>
+<footer>
+  <h1>A.M.A PLUMBING SERVICES.</h1>
+
+  <div class="navlink">
+    <a href="index.html"><p>Home</p></a>
+     <a href="about us.html"><p>About Us</p></a>
+     <a href="services.html"><p>Our Services</p></a>
+     <a href="contact us.html"><p>Contact us</p></a>
+   </div>
+    <div class="links">
+      <h3>Social Media:</h3>
+      <a href="www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+    </div>
+    Designed by M@ha &copy;2021
+  </footer>
+</body>
+</html>
